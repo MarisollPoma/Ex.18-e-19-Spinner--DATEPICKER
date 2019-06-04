@@ -62,10 +62,12 @@
             <TableRow>
 
                 <TextView
+                    android:id="@+id/dataChegada"
                     android:layout_gravity="center"
                     android:text="@string/dataChegada" />
 
                 <TextView
+                    android:id="@+id/dataSaida"
                     android:layout_gravity="center"
                     android:text="@string/dataSaida" />
 
@@ -74,11 +76,13 @@
             <TableRow>
 
                 <Button
-                    android:id="@+id/dataChegada"
+                    android:id="@+id/btnDataChegada"
+                    android:onClick="onSelecionarData"
                     android:text="@string/selecione" />
 
                 <Button
-                    android:id="@+id/dataSaida"
+                    android:id="@+id/btnDataSaida"
+                    android:onClick="onSelecionarData"
                     android:text="@string/selecione" />
             </TableRow>
 

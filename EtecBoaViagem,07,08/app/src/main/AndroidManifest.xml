@@ -11,16 +11,22 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".GastoActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+
+        </activity>0
         <activity android:name=".MenuActivity"></activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> /* esse e meio o principal */
+
         </activity>
-        <activity android:name=".ViagemActivity"></activity>
+        <activity android:name=".ViagemActivity">
+
+
+        </activity>
     </application>
 
 </manifest>
